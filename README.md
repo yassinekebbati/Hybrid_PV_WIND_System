@@ -7,19 +7,19 @@ The paper is freely accessible at this link:(https://link.springer.com/article/1
 
 This implementation requires MATLAB 2018b or a more recent version.
 
-# a) Hybrid_PV_Wind: This part is the implementation of the Hybrid Grid-connected Pv_Wind system in simulink (with wind and solar data for January and August, case of Adrar city in Algeria).
+# a) Hybrid_PV_Wind: This part is the implementation of the Hybrid Grid-connected Pv_Wind system in Simulink (with wind and solar data for January and August, case of Adrar city in Algeria).
 
           1) You only need to open the main slx model file and run the simulation (it takes a while to finish).
           2) Data files are included in the folder for weather, solar irradiation, cost and cash flow of the system, etc...
         
 
-# d) PSO_PI: This code is used to optimizes the PI controller gain using an improved PSO algorithm.
+# d) PSO_PI: This code is used to optimize the PI controller gain using an improved PSO algorithm.
 
           1) To start the optimization run the script 'PSO_PV_WIND_APP.m.
           2) The script sets up the optimization problem through the script "PV_WIND_param.m", and executes the optimization through the script "PSO_PV_WIND_func.m".
           3) The code simulates a lighter version of the model found in "PVWIND.slx" to optimize the controller parameters by minimizing the cost function defined in "PV_WIND_param.m". 
       
-# d) System_Components: This folder contain different implementations of the componenets of the system, for more details you can refer to the main paper referenced above.          
+# d) System_Components: This folder contains different implementations of the components of the system, for more details you can refer to the main paper referenced above.          
 
 
 
