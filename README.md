@@ -27,9 +27,10 @@ This implementation requires MATLAB 2018b or a more recent version.
 
 
 ## If you find this work useful or use it in your work, please cite the main paper:
-
+#### APA:
 Kebbati, Y., & Baghli, L. (2023). Design, modeling and control of a hybrid grid-connected photovoltaic-wind system for the region of Adrar, Algeria. International Journal of Environmental Science and Technology, 20(6), 6531-6558.
 
+#### BibTeX:
 @article{kebbati2023design,
   title={Design, modeling and control of a hybrid grid-connected photovoltaic-wind system for the region of Adrar, Algeria},
   author={Kebbati, Yassine and Baghli, L},
